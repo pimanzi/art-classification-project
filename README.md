@@ -77,6 +77,6 @@ The experiments show that careful selection of optimizer and regularization is c
 
 ## 📺 Demo Video
 
-You can watch a detailed walkthrough of this project here: [Demo Link](https://vimeo.com/1095213154/e0030fab5c?ts=0&share=copy)
+You can watch a detailed walkthrough of this project here: [Demo Link](https://drive.google.com/file/d/1KTEruVTFoMKJQ94Fb5BCkvtt4gRlrwFX/view?usp=sharing)
 
 ---
