@@ -52,15 +52,15 @@ Link of dataset : [WikiArt - Art Movements/Styles Dataset on Kaggle](https://www
 
 ## Insights and Discussion
 
-- Random Forest with PCA provided a baseline but struggled to capture the complexity in artwork images. The hyperparameters helped manage model size and prevent overfitting, but precision, recall, and F1 remained low due to limited feature extraction capability.
+1. Random Forest with PCA provided a baseline but struggled to capture the complexity in artwork images. The hyperparameters helped manage model size and prevent overfitting, but precision, recall, and F1 remained low due to limited feature extraction capability.
 
--The baseline model without any hyperparameter tuning achieved a solid accuracy of 60.9%, showing that EfficientNetB0 alone has strong performance, though it showed signs of overfitting after epoch 10.
+2. The baseline model without any hyperparameter tuning achieved a solid accuracy of 60.9%, showing that EfficientNetB0 alone has strong performance, though it showed signs of overfitting after epoch 10.
 
-Model 2, using Adam optimizer with L2 regularization and a lower learning rate, showed more stable training but slightly reduced accuracy at 59.2%, likely due to early stopping halting training before full convergence to avoid overfitting.
+3. Model 2, using Adam optimizer with L2 regularization and a lower learning rate, showed more stable training but slightly reduced accuracy at 59.2%, likely due to early stopping halting training before full convergence to avoid overfitting.
 
--Model 3 delivered the best results with 63.8% accuracy, where RMSprop and L1 regularization helped the model steadily improve without significant overfitting.
+4. Model 3 delivered the best results with 63.8% accuracy, where RMSprop and L1 regularization helped the model steadily improve without significant overfitting.
 
-## -Model 4, trained with Adagrad optimizer and combined L1_L2 regularization, showed slower convergence and early plateau at 58.3% accuracy, with its aggressive learning rate decay limiting further improvements and making the model more prone to underfitting.
+5. Model 4, trained with Adagrad optimizer and combined L1_L2 regularization, showed slower convergence and early plateau at 58.3% accuracy, with its aggressive learning rate decay limiting further improvements and making the model more prone to underfitting.
 
 ## Summary
 
