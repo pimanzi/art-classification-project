@@ -60,7 +60,7 @@ Overall, hyperparameter tuning influenced the trade-offs between accuracy, preci
 ## 📺 Demo Video
 
 You can watch a detailed walkthrough of this project here:  
-[https://vimeo.com/1094532101/c29144e416?ts=0&share=copy]
+
 
 ---
 
